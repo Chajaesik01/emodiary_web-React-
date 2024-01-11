@@ -1,0 +1,50 @@
+.header {
+    /* background-color: blueviolet; */
+    /* background-image: linear-gradient(to right,blueviolet,white); */
+    /* color: #fff; */
+    background-color: white;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    display: flex; /* 부모 요소를 flex container로 설정 */
+    justify-content: space-between; /* 자식 요소들 사이에 공간을 최대한 만듬 */
+    align-items: center; /* 수직 정렬을 중앙으로 설정 */
+    /* border-bottom: 6px solid indigo; */
+    border-bottom: 4px solid black;
+}
+
+.header .emodiary{
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+
+.header .right-section {
+    display: flex;
+    align-items: center; /* 수직 정렬을 중앙으로 설정 */
+}
+
+.header .right-section .id{
+    font-size: 30px;
+    margin-right: 30px; /* '로그아웃'과의 간격 조정 */
+}
+.id{
+    color: black;
+}
+.link {
+    /* color: #ffffff !important; */
+    color:black !important;
+    border:2px solid black;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 2px solid #ffffff; */
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #cccccc;
+    color: black;
+}
